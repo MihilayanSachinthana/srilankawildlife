@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wildlife srilanka</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="x-icon" href="img/logo.png">
+</head>
+<body>
+    <!---------------------------------------------------------------------------------------------------------------Navbar Start--------->
+     <nav class="navbar">
+        <h1 class="logo"></h1>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home<span></span></a></li>
+            <li><a href="introduction.html">Introduction<span></span></a></li>
+            <li> <a href="animals.html">Animals<span></span></a></li>
+            <li> <a href="slleportd.html">Leopard<span></span></a></li>
+            <li><a href="department.html">Department<span></span></a></li>
+        </ul>
+        <img src="img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!-----------------------------------------------------------------------------------------------------------------Navbar End--------->
+    
+    <!-----------------------------------------------------------------------------------------------------------------Header Start--------->
+            <header>
+                <div class="header-content">
+                    <h1>Sri Lanka</h1>
+                    <div class="line"></div>
+                    <h2>- wildlife -</h2>
+                </div>
+            </header>
+     <!------------------------------------------------------------------------------------------------------------------Header End--------->
+
+    
+    <!--------------------------------------------------------------------------------------------------------------About Section Start------>
+            <section class="about" id="about">
+                <h1 class="heading"> <span>Exploring</span> wildlife </h1>
+                <div class="row">
+                    <div class="video-container">
+                        <video src="img/Wildlife of Sri Lanka Animal Earth.mp4" loop autoplay muted></video>
+                    </div>
+
+                    <div class="content">
+                        <h3>Introduction</h3>
+                        <p> Sri Lanka, known as the "Pearl of the Indian Ocean," is a<br>
+                            tropical paradise with diverse wildlife. From iconic elephants<br>
+                            to elusive leopards, its national parks like Yala and Wilpattu <br>
+                            are crucial for conservation.  <br>
+                            <br>The  island's lush landscapes echo with the sounds of a vibrant<br>
+                            ecosystem, while its oceans teem with marine life. Beyond <br>
+                            ecological importance, Sri Lanka's wildlife holds cultural<br>
+                            significance, woven into indigenous beliefs and folk tales.<br>
+                            The nation's commitment to conservation ensures the <br>
+                            preservation of this extraordinary natural heritage.
+                        </p>
+                        
+                        <br><a href="introduction.html" class="ctn">Learn More</a>
+                    </div>
+                </div>
+            </section>
+    <!-----------------------------------------------------------------------------------------------------------------About Section End------>
+    </section>
+
+    <!-----------------------------------------------------------------------------------------------------------Js code start for navbar------>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+    
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <!-----------------------------------------------------------------------------------------------------------Js code start for navbar------>
+
+    <!----------------------------------------------------------------------------------------------------------------------Footer Start------->
+    <section id="footer">
+        <div class="footer-sec"><i class="fa-solid fa-copyright"></i>  
+            All rights reserved | &copy 2024 Powerd By <a href="#">Mihilayan Sachinthana</a> 
+        </div>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------------------Footer End------>
+    
+</body>
+</html>
